@@ -4,26 +4,16 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/Loonkiyo/CSharp?style=for-the-badge)](https://github.com/Loonkiyo/CSharp/issues)
 
-[![GitHub license](https://img.shields.io/github/license/Loonkiyo/CSharp?style=for-the-badge)](LICENSE)
+** 📖 Visão Geral **
+Este repositório oferece uma estrutura de solução C# padrão, construída para a plataforma .NET. Ele serve como um ponto de partida robusto para projetos C#, seja para construir aplicações de console, bibliotecas de classes ou para estabelecer as bases para aplicações .NET mais complexas. A solução é gerenciada por meio de um arquivo .sln e contém pelo menos um projeto C#.
 
-**A foundational C# solution, designed for development and exploration within the .NET ecosystem.**
+** ✨ Recursos **
+Configuração de Projeto Estruturada: Arquivos de solução e projeto organizados e prontos para desenvolvimento.
+Processo de Build .NET Padrão: Utiliza a CLI dotnet para restaurar dependências, compilar e executar projetos.
+Compatibilidade com IDE: Totalmente compatível com Visual Studio e Visual Studio Code para uma experiência de desenvolvimento aprimorada.
+Base C# Moderna: Preparado para aproveitar os recursos modernos da linguagem C# e as APIs do .NET.
 
-</div>
-
-## 📖 Overview
-
-This repository provides a standard C# solution structure, built for the .NET platform. It serves as a robust starting point for C# projects, whether you're building console applications, class libraries, or setting up the groundwork for more complex .NET applications. The solution is managed via a `.sln` file and contains at least one C# project.
-
-## ✨ Features
-
--   **Structured Project Setup:** Organized solution and project files ready for development.
--   **Standard .NET Build Process:** Utilizes the `dotnet` CLI for restoring dependencies, building, and running projects.
--   **IDE Compatibility:** Fully compatible with Visual Studio and Visual Studio Code for an enhanced development experience.
--   **Modern C# Base:** Prepared to leverage modern C# language features and .NET APIs.
-
-## 🛠️ Tech Stack
-
-**Language:**
+**Linguagem:**
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
