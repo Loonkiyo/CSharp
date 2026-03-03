@@ -42,7 +42,10 @@ namespace Github_csharp
 
         private void btn_limpar_Click(object sender, EventArgs e)
         {
-            Close();
+            txtBox1.Clear();
+            txtBox2.Clear();
+            lbl_alg.Text = "?";
+            lbl_res.Text = " ";
         }
 
         private void btn_sub_Click(object sender, EventArgs e)
@@ -98,7 +101,6 @@ namespace Github_csharp
             {
                 MessageBox.Show("Impossível divisão por zero");
             }
-
         }
 
         private void btn_fechar_Click(object sender, EventArgs e)
@@ -108,22 +110,22 @@ namespace Github_csharp
 
         private void button3_Click(object sender, EventArgs e)
         {
-            lbl_alg.Text = "/";
             decimal a, b;
             try
             {
                 a = decimal.Parse(txtBox1.Text);
                 b = decimal.Parse(txtBox2.Text);
+
                 if (a != b)
                 {
-                    if (a < b)
+                    if (a > b)
                     {
-                        lbl_alg.Text = "<";
+                        lbl_alg.Text = ">";
                         lbl_res.Text = $"{a} é o maior";
                     }
                     else
                     {
-                        lbl_alg.Text = ">";
+                        lbl_alg.Text = "<";
                         lbl_res.Text = $"{b} é o maior";
                     }
                 }
@@ -136,6 +138,39 @@ namespace Github_csharp
             catch (FormatException)
             {
                 MessageBox.Show("Informe apenas números");
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                decimal resultado = decimal.Parse(lbl_res.Text);
+                int numero = (int)resultado;
+
+                if (resultado != numero)
+                {
+                    MessageBox.Show("O resultado não é um número inteiro");
+                    return;
+                }
+
+                if (numero % 2 == 0)
+                {
+                    MessageBox.Show("O resultado é Par");
+                }
+                else
+                {
+                    MessageBox.Show("O resultado é Ímpar");
+                }
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Nenhum resultado válido para verificar");
             }
         }
     }
