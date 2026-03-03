@@ -17,11 +17,3 @@ Uma simples calculadora em .net
 **Framework/Runtime:**
 
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-<div align="center">
-
-**⭐ Star this repo if you find it helpful!**
-
-Made with ❤️ by Loonkiyo
-
-</div>
-
