@@ -173,5 +173,15 @@ namespace Github_csharp
                 MessageBox.Show("Nenhum resultado válido para verificar");
             }
         }
+
+        private void lbl_res_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
