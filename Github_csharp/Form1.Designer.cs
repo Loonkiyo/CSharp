@@ -48,10 +48,10 @@
             // txtBox1
             // 
             this.txtBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.txtBox1.Location = new System.Drawing.Point(212, 31);
+            this.txtBox1.Location = new System.Drawing.Point(207, 31);
             this.txtBox1.Multiline = true;
             this.txtBox1.Name = "txtBox1";
-            this.txtBox1.Size = new System.Drawing.Size(124, 37);
+            this.txtBox1.Size = new System.Drawing.Size(129, 37);
             this.txtBox1.TabIndex = 0;
             this.txtBox1.TextChanged += new System.EventHandler(this.txtBox1_TextChanged);
             // 
@@ -98,14 +98,18 @@
             // 
             // lbl_alg
             // 
+            this.lbl_alg.AllowDrop = true;
             this.lbl_alg.AutoSize = true;
-            this.lbl_alg.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_alg.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.lbl_alg.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lbl_alg.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.lbl_alg.Location = new System.Drawing.Point(176, 29);
+            this.lbl_alg.Location = new System.Drawing.Point(167, 34);
             this.lbl_alg.Name = "lbl_alg";
-            this.lbl_alg.Size = new System.Drawing.Size(2, 39);
+            this.lbl_alg.Size = new System.Drawing.Size(34, 37);
             this.lbl_alg.TabIndex = 2;
+            this.lbl_alg.Text = "?";
+            this.lbl_alg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_alg.UseMnemonic = false;
             this.lbl_alg.Click += new System.EventHandler(this.label1_Click);
             // 
             // lbl_res
